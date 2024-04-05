@@ -3,8 +3,13 @@
   "version": "0.0.1",
   "private": true,
   "createdAt": "2024-04-05T19:31:08.273Z",
-  "dependencies": {},
+  "devDependencies": {
+    "@cubejs-backend/server-core": "0.34.52"
+  },
   "engines": {
     "node": ">=16"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
   }
 }
