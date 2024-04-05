@@ -1,0 +1,37 @@
+cubes:
+  - name: companies
+    sql_table: public.companies
+    data_source: default
+
+    joins: []
+
+    dimensions:
+      - name: id
+        sql: id
+        type: number
+        primary_key: true
+
+      - name: name
+        sql: name
+        type: string
+
+      - name: address
+        sql: address
+        type: string
+
+      - name: email
+        sql: email
+        type: string
+
+      - name: phone
+        sql: phone
+        type: string
+
+    measures:
+      - name: count
+        type: count
+
+    pre_aggregations:
+      # Pre-aggregation definitions go here.
+      # Learn more in the documentation: https://cube.dev/docs/caching/pre-aggregations/getting-started
+
