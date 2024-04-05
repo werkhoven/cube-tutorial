@@ -7,7 +7,7 @@ module.exports = {
     // Base path for the REST API
     basePath: '/cube-api',
 
-    scheduledRefreshTimer: 5, // 24 hours
+    scheduledRefreshTimer: 30, // 24 hours
 
     // Inspect, modify, or restrict every query
     schemaVersion: async ({ securityContext }) => {
